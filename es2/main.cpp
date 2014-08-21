@@ -22,44 +22,29 @@ int main (int argc, char* argv[])
     cout << " Term nr: " << i << "Value= " << terms[i];
     cout << endl;
   }
+
   for (i=32; i > 0 ; i--){
     cout << terms[i];
     }
     cout << endl;
 
-  i=32;
-  /*while(terms[i]==0){
-
-
-      i--;
-      i=a;
-  }
-*/
+    //stampo solo gli ultimi numeri dei 32 bit che rappresentano il numero
   a=0;
-  for (i=31; i >= 0 ; i--){
 
-     // cout << "|";
+    for (i=31; i >= 0 ; i--){
 
-      if(terms[i]==0 && a==0){
-
-          a==0;
-          //cout << "no" << i;
-
-      }else{
-          a=1;
-          cout << terms[i];
-      }
+        if(terms[i]==0 && a==0){
+            a==0;
+        }else{
+            a=1;
+            cout << terms[i];
+        }
 
     }
 
+    cout << endl;
 
-
-      cout << endl;
-
-
-
-
-  return 0;
+    return 0;
 }
 
 
