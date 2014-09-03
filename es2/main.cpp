@@ -7,6 +7,13 @@ int main (int argc, char* argv[])
   int i,a;
   int terms[32]; // storage of a0, a1, etc, up to 32 bits
   int number = atoi(argv[1]); // initialise the term a0, a1 etc
+
+  // try a different way to see if the numember is divisble by 2
+
+  a = number;
+
+
+
   for (i=0; i < 32 ; i++){
 
       terms[i] = 0;
