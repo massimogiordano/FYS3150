@@ -57,14 +57,7 @@ int main()
     }
 
 
-/*
-    mat A(5,5), B(5,5);
-    A.randu();
-    B.randu();
-    cout << A << endl;
-    cout << A*B << endl;
 
-*/
     return 0;
 }
 
