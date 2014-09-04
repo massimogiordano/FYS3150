@@ -109,7 +109,7 @@ void output(double *h_step, double *computed_derivative, double x,
      output_file = fopen("out.dat", "w") ;
      //for( i=0; i < number_of_steps; i++)
       // {
-         fprintf(output_file, "%12.5E %12.5E \n", "ciao");
+         fprintf(output_file, "% \n", "ciao");
 
          //        log10(h_step[i]),log10(fabs(computed_derivative[i]-exp(x))/exp(x)));
       //  }
